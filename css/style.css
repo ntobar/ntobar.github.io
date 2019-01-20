@@ -8,6 +8,38 @@ body{
 
 }
 
+.container{
+  color:#fff;
+}
+
+.btext{
+  color:#f9f3f4;
+  position: absolute;
+  text-align: center;
+  top: 40%;
+  width: 100%;
+  line-height: 0.4em;
+}
+
+h1{
+  font-size: 50px;
+}
+
+
+.btn{
+  color: #fff;
+  text-decoration: none;
+  border: #ccc 1px solid;
+  padding: 10px 15px;
+  border-radius: 8px;
+  line-height: 4em;
+
+}
+
+.contact{
+  padding: 10px;
+}
+
 #particles-js{
   height: 100%;
   /* background: #e8491d;  */
