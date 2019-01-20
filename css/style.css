@@ -12,6 +12,8 @@ body{
   color:#fff;
 }
 
+
+
 .btext{
   color:#f9f3f4;
   position: absolute;
@@ -22,7 +24,9 @@ body{
 }
 
 h1{
+
   font-size: 50px;
+  font-family:'Nothing You Could Do';
 }
 
 
@@ -33,17 +37,34 @@ h1{
   padding: 10px 15px;
   border-radius: 8px;
   line-height: 4em;
+  margin-left: 15px;
 
 }
 
+.btn:hover{
+  color:#b19295;
+  border:#fff 1px solid;
+
+}
+
+.profile {
+    height: 8rem;
+    border-radius: 12rem;
+    margin-top: 1rem;
+    border: .2rem solid #fafafa;
+  }
+
+
+
 .contact{
-  padding: 10px;
+
 }
 
 #particles-js{
   height: 100%;
   /* background: #e8491d;  */
-  background:url('../img/fra.jpg');
+  
+  background:url('../img/fra.jpg') no-repeat fixed;
 }
 
 /* Global */
