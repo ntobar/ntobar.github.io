@@ -48,11 +48,27 @@ h4{
 
   font-size:50px;
   /* font-family: 'Nothing You Could Do'; */
-
   font-family: 'Ruda', sans-serif;
 
 
 }
+
+hr {
+    border-top: 2px solid #fff;
+}
+
+hr.line {
+    width: 200px;
+    /* margin-top: 10px; */
+}
+
+
+hr.empty{
+  border: 0px;
+
+}
+
+
 
 h5{
 
@@ -61,6 +77,22 @@ h5{
   /* font-family: 'Roboto Slab', serif; */
 
 }
+
+h6{
+
+  font-size:50px;
+  /* font-family: 'Nothing You Could Do'; */
+  font-family: 'Ruda', sans-serif;
+
+
+}
+
+h7{
+  font-size: 25px;
+  font-family: 'Ruda', sans-serif;
+}
+
+
 
 
 
@@ -101,6 +133,16 @@ h5{
     /* margin-bottom: 5rem; */
   }
 
+  .code{
+    float:left;
+    height:20rem;
+    border-radius: 15rem;
+    /* margin-top: 1rem; */
+    border: .2rem solid #fafafa;
+    margin-top: 7rem;
+    margin-left: 2.5rem;
+    /* margin-bottom: 5rem; */
+  }
 
 
 .contact{
@@ -128,12 +170,35 @@ h5{
 
 }
 
+.java{
+  margin-right: 5px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.htmlA{
+
+
+
+}
+
+
+
 .about{
 
 
   /* background: url(klematis.jpg) repeat; */
   border: 2px solid black;
 
+}
+
+span.tags {
+    padding: 5px;
+    background-color: #7280fd;
+    color: #fff;
+    margin: 5px;
+display: inline-block;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08), 0 3px 6px rgba(0, 0, 0, 0.15);
 }
 
 .transparent{
@@ -146,6 +211,20 @@ h5{
   /* border: 1px solid ; */
   opacity: 0.8;
   filter: alpha(opacity=60);
+  margin-bottom: 500px;
+}
+
+.languages{
+  /* margin: 30px; */
+
+  height: 600px;
+  background-color: #35424a;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  /* border: 1px solid ; */
+  opacity: 0.8;
+  filter: alpha(opacity=60);
+  margin-bottom: 500px;
 }
 
 /* header */
