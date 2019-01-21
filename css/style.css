@@ -3,10 +3,10 @@ body{
   padding: 0;
   margin: 0;
   height: 500vh;
-  /* height: 100%; */
 
 
 }
+
 
 /* .container{
   color:#fff;
@@ -65,8 +65,18 @@ h3{
 .profile {
     height: 8rem;
     border-radius: 12rem;
-    margin-top: 1rem;
+    margin-top: .5rem;
+    margin-bottom: 1rem;
     border: .2rem solid #fafafa;
+  }
+
+  .surf{
+    float:left;
+    height:35rem;
+    border-radius: 15rem;
+    /* margin-top: 1rem; */
+    border: .2rem solid #fafafa;
+    margin-bottom: 5rem;
   }
 
 
@@ -98,6 +108,7 @@ h3{
 
 .about{
 
+
   /* background: url(klematis.jpg) repeat; */
   border: 2px solid black;
 
@@ -105,6 +116,7 @@ h3{
 
 .transparent{
   /* margin: 30px; */
+
   height: 400px;
   background-color: #35424a;
   border: 1px solid ;
