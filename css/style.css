@@ -151,15 +151,21 @@ h8{
 
   .code{
     float:left;
-    height:20rem;
+    height:25rem;
     border-radius: 15rem;
     /* margin-top: 1rem; */
     border: .2rem solid #fafafa;
-    margin-top: 7rem;
-    margin-left: 2.5rem;
+    margin-top: 16rem;
+    margin-left: 4rem;
     /* margin-bottom: 5rem; */
   }
 
+  .intellij{
+
+    margin-bottom: 31px;
+    margin-right: 20px;
+
+  }
 
 .contact{
 
