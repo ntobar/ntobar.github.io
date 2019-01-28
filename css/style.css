@@ -288,10 +288,23 @@ display: inline-block;
 
 }
 
-.web3j{
+.space{
+
+  margin-left: 100px;
 
 
 }
+
+.web3cc{
+  margin-left: 0px;
+  /* margin-bottom: 50px; */
+}
+
+#colorblack {
+  color: #000;
+  font-size: 25px;
+}
+
 
 .bot{
   position: absolute;
