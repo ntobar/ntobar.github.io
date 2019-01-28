@@ -207,7 +207,12 @@ h8{
   margin-bottom: 10px;
 }
 
-.htmlA{
+.java:hover{
+  opacity:0.5;
+}
+
+.htmlA:hover{
+  opacity:0.5;
 
 
 
@@ -298,6 +303,13 @@ display: inline-block;
 .web3cc{
   margin-left: 0px;
   /* margin-bottom: 50px; */
+}
+
+.web3cc:hover{
+  opacity:0.5;
+
+
+
 }
 
 #colorblack {
