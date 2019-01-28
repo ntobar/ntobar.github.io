@@ -248,7 +248,7 @@ display: inline-block;
 .languages{
   /* margin: 30px; */
 
-  height: 900px;
+  height: 1200px;
   background-color: #35424a;
   border-top: 1px solid;
   border-bottom: 1px solid;
@@ -288,12 +288,12 @@ display: inline-block;
 
 }
 
-.space{
+/* .space{
 
-  margin-left: 100px;
+  margin-left: 800px;
 
 
-}
+} */
 
 .web3cc{
   margin-left: 0px;
