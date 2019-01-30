@@ -253,7 +253,7 @@ display: inline-block;
 .languages{
   /* margin: 30px; */
 
-  height: 1200px;
+  height: 800px;
   background-color: #35424a;
   border-top: 1px solid;
   border-bottom: 1px solid;
@@ -280,9 +280,9 @@ display: inline-block;
 
   height: 800px;
   width: 800px;
-  background-color: #7280fd;
-  border-top: #BD10E0 2px solid;
-  border-bottom: #BD10E0 2px solid;
+  /* background-color: #7280fd; */
+  background-color: #000;
+  border: #ea632a 2px solid;
   /* text-align: center; */
   margin:0 auto;
   /* opacity: 0.8;
@@ -291,6 +291,10 @@ display: inline-block;
 
 
 
+}
+
+.pro{
+  /* color: #ea632a; */
 }
 
 /* .space{
