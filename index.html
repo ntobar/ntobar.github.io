@@ -420,7 +420,20 @@ Allows a user to introduce their Decentralized Application (Card)
 <a href="https://github.com/ntobar/daployer"><img src="./img/githublight32.png" class="java" style="text-align:center"></a>
 <hr class="empty"/>
 
-<img src="./img/easyani.png" class="easyani">
+<!-- <img src="./img/easyani2.png" class="easyani"> -->
+<img src="./img/easyani2.png" class="easyani">
+<hr class="empty"/>
+<img src="./img/playback1.png" class="easyani">
+<hr class="empty"/>
+<hr class="empty"/>
+
+<div style="padding-right: 500px">
+<img src="./img/kf.png" class="easyani" style="padding-right:82px">
+<img src="./img/edits.png" class="kf">
+</div>
+<hr class="empty"/>
+<hr class="empty"/>
+
 
 <h5>
 <!-- <p style="text-align:center">
@@ -439,6 +452,8 @@ GUI designed to allow a user to create an edit
 an Animation from scratch</p>
 </li>
 
+<hr class="empty"/>
+
 <li>It was created with a Partner.</li>
 
 </ul>
@@ -455,20 +470,68 @@ an Animation from scratch</p>
 <a href="https://docs.oracle.com/javase/tutorial/uiswing/start/about.html" style="color:rgba(70,130,180,1)">Java Swing</a> GUI widget
 <hr class="empty"/>
 toolkit.
+<hr class="empty"/>
 </li>
 <hr class="empty"/>
 <li>
 	It is developed using the MVC (Model View Controller) Architecture.
 	<hr class="empty"/>
+	<hr class="empty"/>
 </li>
 <li>
-	Through the Adapter Pattern and the effective seperation between
+	The Adapter Pattern and the effective seperation between
 	<hr class="empty"/>
-	Model View Controller allows the application to run our Model
+	Model, View, and Controller allows the application to output a different
 	<hr class="empty"/>
-	and Controller with a View implemented differently than ours.
+	GUI depending on the Command Line Arguments.
 	<hr class="empty"/>
-	This is done by using the Command Line Arguments.
+	<hr class="empty"/>
+	<hr class="empty"/>
+	Command Line Argument Implementation:
+	<hr class="empty"/>
+	<hr class="empty"/>
+	<hr class="empty"/>
+	<hr class="empty"/>
+	<ol>
+		<li>
+			Edit View: The fully implemented GUI
+			<hr class="empty"/>
+			<hr class="empty"/>
+		</li>
+
+		<li>
+			Provider View:  Displays a GUI that adapts our Model and Controller
+			<hr class="empty"/>
+			to another groups implementation of the View component.
+			<hr class="empty"/>
+			This is done with the Adapter Pattern.
+			<hr class="empty"/>
+			<hr class="empty"/>
+		</li>
+
+		<li>
+
+			Visual View:  Displays only the Animation, without any of the Playback
+			<hr class="empty"/>
+			features or Controls that allow the Animation to be modified.
+			<hr class="empty"/>
+			<hr class="empty"/>
+
+		</li>
+
+		<li>
+			SVG View: Provides an SVG file with the implementation of the animation
+			<hr class="empty"/>
+			<hr class="empty"/>
+		</li>
+
+		<li>
+			Text View: Provides a Text File that describes the Animation.
+		</li>
+
+
+	</ol>
+
 </li>
 
 </ul>
@@ -756,6 +819,189 @@ IDE to facilitate the creation of Smart Contracts
 <!-- <p> It leverages the ethereum blockchain. </p> -->
 </h5>
 
+<hr class="emptyspace"/>
+
+<hr class="detailsline"/>
+<hr class="detailsline"/>
+<hr class="detailsline"/>
+
+
+<hr class="empty"/>
+<hr class="empty"/>
+
+<hr class="empty"/>
+
+<hr class="empty"/>
+
+<hr class="empty"/>
+
+<h8> Light 'em All </h8>
+<hr class="empty"/>
+
+<hr class="dapline"/>
+
+<hr class="empty"/>
+
+<p style="text-align:center">
+
+	A Fully Editable Animation Creator
+
+</p>
+<hr class="empty"/>
+<hr class="empty"/>
+<a href="https://github.com/ntobar/daployer"><img src="./img/githublight32.png" class="java" style="text-align:center"></a>
+<hr class="empty"/>
+
+<div class="mines">
+<img src="./img/light.png">
+<hr class="empty"/>
+<img src="./img/light1.png" style="margin-bottom: 10px">
+</div>
+
+<h5>
+<!-- <p style="text-align:center">
+Daployer is a two part project for <a href="https://maia.live/" style="color:#ea632a" >ADOM Inc.</a>
+
+</p> -->
+<hr class="empty"/>
+<p style="text-align:left" class="details"> ⊳ Overview  </p>
+<hr class="empty"/>
+
+<ul style="text-align:left">
+<li> <p>It is a GUI that implements the game of Connect the Wires.
+</p>
+
+<li>
+	<hr class="empty"/>
+	This Game consists of GamePieces on a fractal-like board generated
+	<hr class="empty"/>
+	with a subdivision algorithm which represent different types of Wire shapes.
+	<hr class="empty"/>
+	<hr class="empty"/>
+	When clicked, the gamepiece rotates to change the orientation of the wire.
+</li>
+
+<li>
+	<hr class="empty"/>
+	The board also has a GamePiece in which there is a power-station that
+	<hr class="empty"/>
+	has a finite radius.
+	<hr class="empty"/>
+	<hr class="empty"/>
+</li>
+
+<li>
+	The power station can be moved with the arrow keys, but only to GamePieces
+	<hr class="empty"/>
+	in which the wires are correctly oriented so that they connect.
+	<hr class="empty"/>
+	<hr class="empty"/>
+</li>
+
+<li>
+	The purpose of the Game is to light up all all of the wires by connecting them
+	<hr class="empty"/>
+	and strategically placing the power station so that the radius reaches
+	<hr class="empty"/>
+	 every GamePiece.
+	 <hr class="empty"/>
+	 <hr class="empty"/>
+</li>
+
+<li>
+	Every time the game is played the GamePieces are oriented/rotated randomly
+	<hr class="empty"/>
+	in order to generate a "random" board.
+	<hr class="empty"/>
+	<hr class="empty"/>
+</li>
+
+</li>
+
+<li>It was created with a Partner.</li>
+
+</ul>
+
+<hr class="empty"/>
+<hr class="empty"/>
+
+
+<p style="text-align:left" class="details"> ⊳ Implementation Details  </p>
+<hr class="empty"/>
+
+<ul style="text-align:left">
+<li> Light 'Em All is developed in Java using the
+<a href="https://docs.oracle.com/javase/tutorial/uiswing/start/about.html" style="color:rgba(70,130,180,1)">Java Swing</a> GUI widget
+<hr class="empty"/>
+toolkit.
+<hr class="empty"/>
+</li>
+<hr class="empty"/>
+<li>
+	The fractal-like GamePiece board is generated by using
+	<hr class="empty"/>
+	 a subdivision algorithm
+	<hr class="empty"/>
+	<hr class="empty"/>
+</li>
+<li>
+	The game implements Kruskal's algorithm in order to create
+	<hr class="empty"/>
+	a "random" board.
+	<hr class="empty"/>
+	<hr class="empty"/>
+</li>
+
+<li>
+	The light-up behavior, although not completely developed, implements
+	<hr class="empty"/>
+	the Breadth-first search algorithm in order to find the accurate radius for
+	<hr class="empty"/>
+	the power station.
+</li>
+
+</ul>
+
+<hr class="empty"/>
+<hr class="empty"/>
+
+
+<p style="text-align:left" class="details"> ⊳ Features & Applications  </p>
+<hr class="empty"/>
+
+<div>
+
+<ul style="text-align:left">
+<li>
+	The ability to rotate each GamePiece/Wire by clicking on it in order
+	<hr class="empty"/>
+	to be able to connect the Wires.
+	<hr class="empty"/>
+</li>
+	<hr class="empty"/>
+<li>
+	Implementation of arrow keys movement in order to move the power station
+	<hr class="empty"/>
+	through the connected wires.
+</li>
+
+<hr class="empty"/>
+
+</ul>
+
+</div>
+
+<hr class="emptyspace"/>
+
+<a href="#" class="btn" style="text-align:center; font-family: 'Ruda', sans-serif;"> See it on Github upon request! </a>
+<!-- <p>It is a desktop application
+IDE to facilitate the creation of Smart Contracts
+</p> -->
+
+<!-- <p> It leverages the ethereum blockchain. </p> -->
+</h5>
+
+
 
 
 
@@ -777,8 +1023,8 @@ IDE to facilitate the creation of Smart Contracts
 
 
 </div>
-		<script type="text/javascript" src="particles.js"></script>
-		<script type="text/javascript" src="app.js"></script>
+		<!-- <script type="text/javascript" src="particles.js"></script>
+		<script type="text/javascript" src="app.js"></script> -->
 
 		<!-- <div id="particles-js"></div>
 
