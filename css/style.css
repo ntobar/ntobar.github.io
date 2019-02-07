@@ -98,7 +98,8 @@ hr.dapline{
 
 h5{
 
-  font-size: 15px;
+  /* font-size: 15px; */
+  font-size: 1vw;
   font-family: 'Ruda', sans-serif;
   /* text-align: left; */
   /* font-family: 'Roboto Slab', serif; */
