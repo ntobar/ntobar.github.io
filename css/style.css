@@ -303,21 +303,56 @@ h8{
 
 }
 
+
+
+
 #git{
   float:left;
+  border-top-left-radius:16px;
+  border-bottom-left-radius:16px;
+  border-top: rgba(0,49,82,1) 3px solid;
+  border-bottom: rgba(0,49,82,1) 3px solid;
+
+}
+
+#git:hover{
+
+  border-top: red 3px solid;
+  border-bottom: red 3px solid;
 
 }
 
 #linked{
 
   float:left;
+  border-top: rgba(0,49,82,1) 3px solid;
+  border-bottom: rgba(0,49,82,1) 3px solid;
 
+
+}
+
+#linked:hover{
+
+  border-top: red 3px solid;
+  border-bottom: red 3px solid;
 
 }
 
 #mails{
 
   float:left;
+  margin-right: 0px;
+  border-top-right-radius:16px;
+  border-bottom-right-radius:16px;
+  border-top: rgba(0,49,82,1) 3px solid;
+  border-bottom: rgba(0,49,82,1) 3px solid;
+
+}
+
+#mails:hover{
+
+  border-top: red 3px solid;
+  border-bottom: red 3px solid;
 
 }
 
@@ -328,9 +363,6 @@ h8{
   /* border-radius: 8px; */
   line-height: 4em;
   margin-left: 15px;
-
-
-
 
 
 }
