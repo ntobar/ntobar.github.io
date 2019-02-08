@@ -101,6 +101,7 @@ h5{
   /* font-size: 15px; */
   font-size: 1vw;
   font-family: 'Ruda', sans-serif;
+  /* line-height: normal; */
   /* text-align: left; */
   /* font-family: 'Roboto Slab', serif; */
 
@@ -109,6 +110,7 @@ h5{
 h6{
 
   font-size:50px;
+  /* line-height: normal; */
   /* font-family: 'Nothing You Could Do'; */
   font-family: 'Ruda', sans-serif;
 
@@ -117,11 +119,13 @@ h6{
 
 h7{
   font-size: 25px;
+  /* line-height: normal; */
   font-family: 'Ruda', sans-serif;
 }
 
 h8{
   font-size: 25px;
+  /* line-height: normal */
   font-family: 'Ruda', sans-serif;
 
 }
