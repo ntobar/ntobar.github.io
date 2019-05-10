@@ -485,7 +485,7 @@ display: inline-block;
 
 .daployer{
 
-  height: 6500px;
+  height: 6800px;
   width: 1200px;
   /* width: 800px; */
   /* background-color: #7280fd; */
@@ -556,6 +556,7 @@ display: inline-block;
   margin-right: 15px;
   float:left;
   padding-right: 70px;
+  margin-bottom: 20px;
 
 
 
@@ -589,7 +590,7 @@ display: inline-block;
   margin-right: 15px;
   float:left;
   padding-right: 70px;
-  padding-bottom: 200px;
+  padding-bottom: 300px;
 
 
 
